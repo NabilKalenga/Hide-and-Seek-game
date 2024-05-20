@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+
+        </div>
+    </header>
+    <main>
+        <section class="main-section">
+            <h2>
+                Guess where am hiding!
+            </h2>
+            <div class="hiding-places">
+                <div id="tree-container"class="hiding-place">
+                    <img src="assets/tree.png" class="hiding-img"> 
+                    <button id="tree-button">Tree</button>
+
+                </div>
+                <div id="rock-container"class="hiding-place">
+                    <img src="assets/rock.png" class="hiding-img">
+                    <button id="rock-button">Rock</button>
+                    
+                </div>
+                <div id="house-container"class="hiding-place">
+                    <img src="assets/house.jpg" class="hiding-img">
+                    <button id="house-button">House</button>
+
+                </div>
+
+            </div>
+            <div>You guessed correctly <span id="wins">0</span>times</div>
+            <div>and incorrectly <span id="losses">0</span>times</div>
+            <div>out of</div>
+            <div><span id="total">0</span>games.</div>
+
+        </section>
+    </main>
+    <footer>
+        <div>2024, Nabil Code Lab</div>
+    </footer>
+    <script type="module" src="./app.js"></script>
+    
+</body>
+</html>
