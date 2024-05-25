@@ -11,6 +11,7 @@ const lossesElement =document.getElementById("losses")
 const totalElement =document.getElementById("total")
 
 //initialize state
+//here I am initializing the state
 const hidingPlaces =["tree", "rock", "house" ]
 let correctGuesses=0
 let incorrectGuesses=0
