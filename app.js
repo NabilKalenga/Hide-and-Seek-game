@@ -11,7 +11,7 @@ const lossesElement =document.getElementById("losses")
 const totalElement =document.getElementById("total")
 
 //initialize state
-//here I am initializing the state
+
 const hidingPlaces =["tree", "rock", "house" ]
 let correctGuesses=0
 let incorrectGuesses=0
@@ -34,6 +34,7 @@ houseButton.addEventListener('click', () => {
 })
 function handleGuess(correctSpot,userGuess){
     //reset the style
+    //here I am reseting the style
     treeContainer.classList.remove('face')
     rockContainer.classList.remove('face')
     houseContainer.classList.remove('face')
